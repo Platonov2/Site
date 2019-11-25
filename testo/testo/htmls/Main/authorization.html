@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Пример веб-страницы</title>
+        <link rel="stylesheet" type="text/css" href="/styles/Main/authorizationStyle.css">
+        <script ENGINE="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="/scripts/authorizationScript.js"></script>
+    </head>
+
+    <body>
+        <div id = "fadeBackground"></div id = "fadeBackground">
+        
+        <div id = "authorizationForm">
+                <a id="closeButton" href="javascript:void(0)" onclick = "document.getElementById('authorizationForm').style.display='none';document.getElementById('fadeBackground').style.display='none'"></a>
+
+            <div id = "textPadding">
+                <h1>Авторизация</h1>
+                <p>Введите логин и пароль, чтобы войти в личный кабинет</p>
+
+                <form id = "inputForm" method="post" action="../scripts/authorization.js">
+                    <input id="loginForm" class = "inputField" type="text" name="login" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Логин':this.value;" value="Логин"/>
+                    <input id="passwordForm" class = "inputField" type="text" name="password" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Пароль':this.value;" value="Пароль"/>
+                    <input id = "inputButton" type="submit" name="send" value="Войти">
+                </form>
+            </div id = "textPadding">
+        </div id = "authorizationForm">
+    </body>
+</html>

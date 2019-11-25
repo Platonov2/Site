@@ -1,0 +1,257 @@
+body, html { 
+	margin: 0px;
+    padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#fadeBackground {
+    display: block;
+    position: absolute;
+    z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity:.70;
+}
+
+#authorizationForm {
+	display: block;
+    position: absolute;
+    z-index: 2;
+    width: 560px;
+	height: 470px;
+    margin-top: 10%;
+    margin-left: calc((100% - 560px) / 2);
+    text-align: left;
+    background-image: url(https://a.radikal.ru/a05/1911/be/75f41abac896.png);
+    /* background: blue; */
+}
+
+#closeButton {
+    position: absolute;
+    margin-left: 504px;
+    margin-top: 30px;
+    width: 25px;
+    height: 25px;
+    background-image: url(https://d.radikal.ru/d43/1911/bb/453bf9798fa3.png);
+}
+
+#textPadding {
+    display: inline-block;
+    width: 430px;
+    height: 342px;
+    margin-top: 64px;
+    margin-left: 70px;
+    /* background: green; */
+}
+
+#authorizationForm h1 {
+    margin-top: -10px;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+    /* background: blue; */
+}
+
+#authorizationForm p {
+    margin-top: -10px;
+    font-size: 16px;
+    line-height: 24px;
+    /* background: red; */
+}
+
+#inputForm {
+    margin-top: 38px;
+    /* background: yellow; */
+}
+
+.inputField {
+    border-radius: 6px;
+    margin-top: 11px;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #23415E;
+    font-size: 15px;
+    line-height: 20px;
+    color: #D0C9D6;
+}
+
+#inputButton {
+    width: 100%;
+    margin-top: 50px;
+    height: 52px;
+    border: 0px;
+    border-radius: 10px;
+    background-image: url(https://a.radikal.ru/a39/1911/02/4f83c64ee329.png);
+    /* background: blanchedalmond; */
+}
+
+/* Header */
+#headerFrame {
+	/* position: relative; */
+	width: 100%;
+	background: red;
+	margin-bottom: -56px;
+}
+
+/* Slider */
+#slider {
+	display: inline-block;
+	margin-top: -10px;
+	margin-left: -40px;
+	width: 10000000px;
+	background: radial-gradient(75.49% 75.49% at 61.01% 75.77%, #376A9A 0%, #2B5276 100%);
+	/* background: darkred; */
+}
+
+#slider #sliderList {
+	display: inline-block;
+}
+
+.slide {
+	display: inline-block;
+	vertical-align: bottom;
+	/* 17px - размер скроллбара во всех браузерах (кроме IE) */
+	width: calc(100vw - 17px);
+	height: 100%;
+	/* background: darkmagenta; */
+}
+
+.slideText {
+	display: inline-block;
+	text-align: left;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	height: 50%;
+	width: 40%;
+	/* background: green; */
+}
+
+.slideText h1 {
+	font-family: Proxima Nova;
+  	font-size: 64px;
+  	line-height: 100%;
+	display: flex;
+	width: 100%;
+	/* background: black; */
+}
+
+.smallSlideText {
+	font-family: Proxima Nova;
+	margin-top: -30px;
+	display: flex;
+	font-size: 16px;
+	line-height: 150%;
+	width: 90%;
+	/* background: orange; */
+}
+
+.slideButton {
+	display: flex;
+	margin-top: 20%;
+	background-image: url(https://c.radikal.ru/c01/1909/f2/a24d80a73748.png);
+	width: 240px;
+	height: 52px;
+}
+
+.textSlideButton {
+	font-family: Proxima Nova;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 22px;
+	/* background: black; */
+}
+
+.slideImage {
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 0%;
+	width: 510px;
+	height: 610px;
+	/* background: red; */
+}
+
+#buttonList {
+	position: absolute;
+	list-style-type: none;
+	text-align: center;
+	margin-left: 46vw;
+	margin-top: -10vw;
+	z-index: 1;
+	/* background: yellow; */
+}
+
+.button {
+	display: inline-block;
+	height: 14px;
+	width: 14px;
+	background-image: url(https://b.radikal.ru/b04/1910/88/edcead07d8b4.png);
+	/* background: chartreuse; */
+}
+
+.button img {
+	margin-bottom: 4px;
+	visibility: hidden;
+	/* background: darkblue; */
+}
+
+/* Main */
+main {
+	margin-top: -4px;
+	margin-bottom: 10%;
+	display: inline-block;
+	position: relative;
+	/* background: blue; */
+}
+
+#mainHeader {
+	margin-top: 10%;
+	margin-bottom: 10%;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    color: #2A496B;
+}
+
+#list {
+	position: relative;
+	text-align: center;
+	list-style-type: none;
+	/* background: yellow; */
+}
+
+#list li{
+	margin-top: 2%;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	/* background: red; */
+}
+
+#list li h1 {
+	position: relative;
+	margin-top: 5%;
+	font-size: 20px;
+  	line-height: 140%;
+	text-align: center;
+	width: 100%;
+	/* background: green; */
+}
+
+#list li p {
+	font-family: Proxima Nova;
+	line-height: 127%;
+    font-size: 15px;
+	margin-left: 7.5%;
+	text-align: center;
+	width: 85%;
+	/* background: orange; */
+}
+
+/* Footer */
+#footerFrame {
+	width: 100%;
+	background: red;
+	height: 337px;
+}
