@@ -1,0 +1,76 @@
+body, html { 
+	margin: 0px;
+    padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+footer {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+    bottom: 0px;
+    padding-bottom: 5%;
+    vertical-align: middle;
+    background: #23415E;
+    color: #FFFFFF;
+}
+
+
+#footerLogo {
+	display: inline-block;
+	margin-top: 2.5%;
+	margin-left: 10%;
+	/* background: blue; */
+}
+
+.footerList {
+	vertical-align: top;
+	display: inline-block;
+	list-style-type: none;
+	width: 75%;
+	/* background: red; */
+}
+
+#firstFooterList {
+	display: inline-block;
+	margin-left: 15%;
+}
+
+.firstFooterListEl {
+	font-family: Proxima Nova;
+	margin-top: -5%;
+    font-size: 15px;
+    line-height: 240%;
+	width: 100%;
+	/* background: green; */
+}
+
+#secondFooterList {
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.secondFooterListEl {
+	font-family: Proxima Nova;
+	margin-top: -5%;
+    font-size: 15px;
+    line-height: 240%;
+	width: 100%;
+	/* background: green; */
+}
+
+#thirdFooterList {
+	text-align: left;
+	display: inline-block;
+	margin-left: 15%;
+}
+
+.thirdFooterListEl {
+	font-family: Proxima Nova;
+	margin-top: -5%;
+    font-size: 15px;
+    line-height: 127%;
+	color: #A9C5E0;
+	/* background: green; */
+}
