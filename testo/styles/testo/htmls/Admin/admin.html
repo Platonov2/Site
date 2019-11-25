@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Пример веб-страницы</title>
+  <link rel="stylesheet" type="text/css" href="/styles/Admin/adminStyle.css">
+  <script ENGINE="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="/scripts/adminScript.js"></script>
+ </head>
+  
+ <body>
+	<iframe id = "headerFrame" src = "/htmls/Header/header.html"></iframe>
+
+	<!-- Main -->
+    <main> 
+        <div id = "mainContainer">
+            <h1 id = "zagolovokH">Добавить новость</h1>
+            <p id = "zagolovokP">Введите текст новости, а также приложите изображение (размер: 270х270px, формат JPG,PNG)</p>
+
+            <form id = "inputForm" method="post" action="/scripts/authorizationScript.js">
+                <div id = "textareaContainer">
+                    <textarea id = "textField" placeholder = "Введите текст новости"></textarea>
+                </div id = "textareaContainer">
+            </form>
+
+
+
+            <a id = "addImageContainer">
+                <div id = "image"><img src = "https://b.radikal.ru/b29/1911/2d/caa99feb7547.png"></div>
+                <p id = "addImageText">+ Добавить изображение</p>
+            </a id = "addImageContainer">
+
+            <form id = "inputFile" method="post">
+                <input id = "file" type = "file">
+            </form>
+
+            <div id = "previewContainer">
+                <img id="imagePreview" src="" alt="" />
+                <p id = "textPreview">Текст</p>
+            </div>
+
+
+
+            <div id = "button">
+                <div id = "buttonText">Применить</div>
+            </div id = "button">
+        </div id = "mainContainer">
+   </main>
+
+   <!-- Footer -->
+   <iframe id = "footerFrame" src = "/htmls/Footer/footer.html"></iframe>
+
+ </body>
+</html>
